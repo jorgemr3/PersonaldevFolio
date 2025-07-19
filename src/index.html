@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jorge's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+
+    <link href="./output.css" rel="stylesheet" />
+
+    <script
+      src="https://kit.fontawesome.com/4e5a72c756.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- comportamiento de la navbar -->
+    <script src="navbar.js"></script>
+    <script type="module" src="main.js"></script>
+    <script src="./NavMobileBtn.js"></script>
+  </head>
+
+  <body>
+    <!-- desktop navbar y mobile-->
+    <nav
+      class="bg-neutral-900/95 backdrop-blur-sm border-b border-neutral-700/50 sticky top-0 z-50 transition-all duration-300"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-evenly items-center h-16">
+          <!-- Logo/Nombre -->
+          <div class="flex-shrink-0">
+            <a
+              href="#"
+              class="text-white text-xl font-bold hover:text-blue-400 transition-colors duration-200"
+            >
+              jorgemr3 (github)
+            </a>
+          </div>
+
+          <!-- Menu Desktop -->
+          <div class="hidden md:block">
+            <div class="ml-10 flex items-baseline gap-10 space-x-8">
+              <a
+                href="#about"
+                class="text-neutral-300 hover:text-white hover:scale-105 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-neutral-800/50"
+              >
+                Sobre mí
+              </a>
+              <a
+                href="#experience"
+                class="text-neutral-300 hover:text-white hover:scale-105 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-neutral-800/50"
+              >
+                Experiencia
+              </a>
+              <a
+                href="#projects"
+                class="text-neutral-300 hover:text-white hover:scale-105 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-neutral-800/50"
+              >
+                Proyectos
+              </a>
+              <a
+                href="#tech-stack"
+                class="text-neutral-300 hover:text-white hover:scale-105 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-neutral-800/50"
+              >
+                Tech Stack
+              </a>
+              <a
+                href="#education"
+                class="text-neutral-300 hover:text-white hover:scale-105 px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:bg-neutral-800/50"
+              >
+                Educación
+              </a>
+              <a
+                href="#contact"
+                class="text-neutral-300 hover:bg-blue-700 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 hover:scale-105 shadow-lg hover:shadow-blue-500/25"
+              >
+                Contacto
+              </a>
+            </div>
+          </div>
+
+          <!-- Botón hamburguesa para mobile -->
+          <div class="md:hidden">
+            <button
+              id="mobile-menu-btn"
+              class="text-neutral-400 hover:text-white hover:bg-neutral-800 p-2 rounded-lg transition-all duration-200"
+            >
+              <svg
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Menu Mobile (oculto por defecto) -->
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden bg-neutral-800/95 backdrop-blur-sm border-t border-neutral-700/50 text-center"
+      >
+        <div class="px-2 pt-2 pb-3 space-y-1">
+          <a
+            href="#about"
+            class="text-neutral-300 hover:text-white block px-3 py-3 rounded-lg text-base font-medium transition-all duration-200 hover:bg-neutral-700/50 text-center"
+          >
+            Sobre mí
+          </a>
+          <a
+            href="#experience"
+            class="text-neutral-300 hover:text-white block px-3 py-3 rounded-lg text-base font-medium transition-all duration-200 hover:bg-neutral-700/50 ctext-center"
+          >
+            Experiencia
+          </a>
+          <a
+            href="#projects"
+            class="text-neutral-300 hover:text-white block px-3 py-3 rounded-lg text-base font-medium transition-all duration-200 hover:bg-neutral-700/50 text-center"
+          >
+            Proyectos
+          </a>
+          <a
+            href="#tech-stack"
+            class="text-neutral-300 hover:text-white block px-3 py-3 rounded-lg text-base font-medium transition-all duration-200 hover:bg-neutral-700/50 text-center"
+          >
+            Tech Stack
+          </a>
+          <a
+            href="#education"
+            class="text-neutral-300 hover:text-white block px-3 py-3 rounded-lg text-base font-medium transition-all duration-200 hover:bg-neutral-700/50 text-center"
+          >
+            Educación
+          </a>
+          <a
+            href="#contact"
+            class="text-neutral-300 hover:bg-blue-700 block px-3 py-3 rounded-lg text-base font-medium transition-all duration-200 mx-2 my-2 text-center"
+          >
+            Contacto
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- yo -->
+    <header class="flex flex-col items-center ">
+      <div class="h-8"></div>
+      <img src="img\gatillo.jpeg" alt="foto" class="avatar" />
+       <div class="h-8"></div>
+      <h1 class="text-xl md:text-4xl">Jorge Melo Resendiz</h1>
+      <h2 class="text-base md:text-lg">Desarrollador frontend mobile - web</h2>
+      <a href="#" class="resume-link"
+        ><i class="fas fa-file-word"></i> Descargar CV</a
+      >
+    </header>
+
+    <!-- sobre mi -->
+    <section class="section" id="about">
+      <!-- <h1 class="text-red-600">Hello world!</h1> -->
+
+      <h2 class="text-2xl font-medium text-center mb-4 text-grey-800">
+        Sobre mí
+      </h2>
+      <p class="text-[0.9rem] md:text-base text-center md:text-left">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus
+        augue magna, vitae tristique lorem ultricies sed. Vivamus nec metus
+        arcu. Vivamus dapibus nulla ac molestie convallis. Aenean euismod porta
+        tortor, sit amet pharetra risus vulputate at. Nullam vel mattis nunc, ac
+        eleifend urna. Vivamus pellentesque malesuada tellus, quis vehicula
+        neque mollis a. Nunc ac lobortis lacus. Nunc pellentesque mauris sit
+        amet purus dictum fermentum. Etiam iaculis eget erat vel efficitur.
+        Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer
+        euismod magna at quam rhoncus convallis. Sed sit amet est quis turpis
+        laoreet finibus id lobortis augue. Nam quis congue augue.
+      </p>
+    </section>
+
+    <!-- experiencia -->
+    <section class="section" id="experience">
+      <h2
+        class="text-2xl font-medium text-center sm:text-left mb-4 text-gray-800"
+      >
+        Experiencia
+      </h2>
+      <div class="card">
+        <h3>Nombre de la Empresa</h3>
+        <p class="role">Puesto — Enero 2020 - Presente</p>
+        <p>Descripción corta de tu rol en la empresa.</p>
+        <ul>
+          <li>Logro o responsabilidad 1</li>
+          <li>Logro o responsabilidad 2</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Nombre de la Empresa</h3>
+        <p class="role">Puesto — Ago 2017 - Ene 2020</p>
+        <p>Descripción corta de tu rol anterior.</p>
+        <ul>
+          <li>Logro o responsabilidad 1</li>
+          <li>Logro o responsabilidad 2</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TECH STACK -->
+    <section class="section" id="tech-stack">
+      <h2 class="text-2xl font-medium text-center mb-4 text-gray-800">
+        Tech Stack
+      </h2>
+      <div class="flex flex-wrap justify-center gap-4 p-5">
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-md"
+          >JavaScript</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Python</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Ruby</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Go</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Node.js</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >AngularJs</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >React</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Elixir</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Java</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >C</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >C#</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >C++</span
+        >
+        <span
+          class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm"
+          >Ruby on Rails</span
+        >
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section class="section" id="projects">
+      <h2
+        class="text-2xl font-medium text-center sm:text-left mb-4 text-gray-800"
+      >
+        Proyectos
+      </h2>
+      <div id="proyectos-container" class=""></div>
+    </section>
+
+    <!-- EDUCACION -->
+    <section class="section" id="education">
+      <h2
+        class="text-2xl font-medium text-center sm:text-left mb-4 text-gray-800"
+      >
+        Educación / Formación
+      </h2>
+      <div class="card">
+        <h3>Nombre de la Escuela</h3>
+        <p class="role">Curso / Programa — 2016 - 2019</p>
+        <ul>
+          <li>Detalle 1</li>
+          <li>Detalle 2</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section" id="contact">
+      <h2
+        class="text-2xl font-bold text-center md:text-left mb-4 text-gray-800"
+      >
+        Contacto
+      </h2>
+      <div
+        class="flex flex-wrap flex-col md: content-center md:content-start gap-4"
+      >
+        <a href="https://github.com/jorgemr3" target="_blank"
+          ><i class="fab fa-github"></i> github.com/jorgemr3</a
+        >
+
+        <a href="mailto:jorgemr103@gmail.com"
+          ><i class="fas fa-envelope"></i> jorgemr103@gmail.com</a
+        >
+
+        <a href="https://linkedin.com/in/tuusuario" target="_blank"
+          ><i class="fab fa-linkedin-in"></i> LinkedIn</a
+        >
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; 2025 Jorge Melo. Todos los derechos reservados.</p>
+    </footer>
+  </body>
+</html>
