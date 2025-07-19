@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio
 
-Welcome to my official web portfolio — a clean, responsive site built with **JavaScript** and **Tailwind CSS v4.1**.  
+Welcome to my official portfolio — a simple, responsive site built with **JavaScript** and **Tailwind CSS v4.1**.  
 This project showcases my journey on Mobile and web environments, tech stack, featured projects, and contact information.
 
 > ⚠️ **Note:** This repository is a work in progress and will be updated periodically. The current content may not represent the final version. Stay tuned for updates!
@@ -15,9 +15,9 @@ This project showcases my journey on Mobile and web environments, tech stack, fe
 
 This project is heavily inspired by [Mark Macneil's Devfolio Template](https://mmacneil.github.io/devfolio/) and [Ryan FitzGerald Template](https://ryanfitzgerald.github.io/devportfolio/#), adapted and reimagined to reflect my personal style, my Tailwind evolving skill and general Tecnhologic stack.
 
-## 📂 Repository
+## 📂 Live Demo
 
-🔗 [Source Code](https://guthib.com)  
+🔗 [](https://guthib.com)  
 (*This portfolio will soon be hosted under my own url. Redirecting to guthib.com*)
 
 ## 📄 License
