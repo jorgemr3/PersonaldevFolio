@@ -17,7 +17,7 @@ This project is heavily inspired by [Mark Macneil's Devfolio Template](https://m
 
 ## 📂 Live Demo
 
-🔗 [](https://guthib.com)  
+🔗 [Demo](https://guthib.com)  
 (*This portfolio will soon be hosted under my own url. Redirecting to guthib.com*)
 
 ## 📄 License
