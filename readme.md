@@ -5,10 +5,10 @@ This project showcases my journey on Mobile and web environments, tech stack, fe
 
 > ⚠️ **Note:** This repository is a work in progress and will be updated periodically. The current content may not represent the final version. Stay tuned for updates!
 
-## 🎯 Project Goals
+## 🎯 Project Features
 
 - Provide a a minimal and accessible presentation of my skills.
-- Demonstrate real-world frontend web & mobile fullstack development practices.
+- Demonstrate real-world frontend web & mobile fullstack development practices throughout my years being a student and freelancer.
 - Highlight key projects and experience in a sleek, Flutter-like card-based layout.
 
 ## 🧠 Inspired by
@@ -22,7 +22,7 @@ This project is heavily inspired by [Mark Macneil's Devfolio Template](https://m
 
 ## 📄 License
 
-This project is licensed under the [MIT License](link). Feel free to fork, remix, and build upon it — just include proper attribution.
+This project is licensed under the [MIT License](https://github.com/jorgemr3/PersonaldevFolio/blob/main/LICENSE). Feel free to fork, remix, and build upon it — just include proper attribution.
 
 ---
 
