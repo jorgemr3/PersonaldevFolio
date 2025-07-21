@@ -3,22 +3,24 @@
   <head>
     <title>Jorge's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- <link rel="stylesheet" href="styles.css" /> -->
 
-    <link href="./output.css" rel="stylesheet" />
-
+    <!-- estilos y fontawesone icons -->
+    <link href="styles/output.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/4e5a72c756.js"
       crossorigin="anonymous"
     ></script>
 
     <!-- comportamiento de la navbar -->
-    <script src="navbar.js"></script>
-    <script type="module" src="main.js"></script>
-    <script src="./NavMobileBtn.js"></script>
+    <script src="js/navbar.js"></script>
+    <script type="module" src="js/ShowProyectos.js"></script>
+    <script src="js/NavMobileBtn.js"></script>
+
   </head>
 
-  <body>
+  <!-- ! centrado para la sangria -->
+  <body class="flex flex-col items-center"> 
+    
     <!-- desktop navbar y mobile-->
     <nav
       class="bg-neutral-900/95 backdrop-blur-sm border-b border-neutral-700/50 sticky top-0 z-50 transition-all duration-300"
@@ -78,7 +80,7 @@
           </div>
 
           <!-- Botón hamburguesa para mobile -->
-          <div class="md:hidden">
+          <div class="md:hidden ">
             <button
               id="mobile-menu-btn"
               class="text-neutral-400 hover:text-white hover:bg-neutral-800 p-2 rounded-lg transition-all duration-200"
@@ -98,6 +100,7 @@
               </svg>
             </button>
           </div>
+
         </div>
       </div>
 
@@ -146,7 +149,7 @@
         </div>
       </div>
     </nav>
-
+    
     <!-- yo -->
     <header class="flex flex-col items-center ">
       <div class="h-8"></div>
@@ -159,6 +162,7 @@
       >
     </header>
 
+    
     <!-- sobre mi -->
     <section class="section" id="about">
       <!-- <h1 class="text-red-600">Hello world!</h1> -->
@@ -179,7 +183,10 @@
         laoreet finibus id lobortis augue. Nam quis congue augue.
       </p>
     </section>
-
+ 
+    <!-- ! div  de 'sangria' -->
+    <div class=" max-w-5xl mx-auto px-4 space-y-12"> 
+   
     <!-- experiencia -->
     <section class="section" id="experience">
       <h2
@@ -274,8 +281,8 @@
         class="text-2xl font-medium text-center sm:text-left mb-4 text-gray-800"
       >
         Proyectos
-      </h2>
-      <div id="proyectos-container" class=""></div>
+      </h2> 
+      <div id="proyectos-container" class="flex flex-col items-center"></div>
     </section>
 
     <!-- EDUCACION -->
@@ -302,7 +309,7 @@
       >
         Contacto
       </h2>
-      <div
+      <div  
         class="flex flex-wrap flex-col md: content-center md:content-start gap-4"
       >
         <a href="https://github.com/jorgemr3" target="_blank"
@@ -318,9 +325,11 @@
         >
       </div>
     </section>
-
+   </div> 
+    <!-- ! div sangria  -->
     <footer class="footer">
       <p>&copy; 2025 Jorge Melo. Todos los derechos reservados.</p>
     </footer>
+  
   </body>
 </html>

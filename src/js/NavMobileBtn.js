@@ -2,8 +2,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileMenuBtn = document.getElementById("mobile-menu-btn");
   const mobileMenu = document.getElementById("mobile-menu");
 
+  // opened button
   mobileMenuBtn.addEventListener("click", () => {
     mobileMenu.classList.toggle("hidden");
+    // mobileMenuBtn.classList.toggle("burger-active");
   });
 
   // Close mobile menu when clicking on a link
@@ -11,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   mobileLinks.forEach((link) => {
     link.addEventListener("click", () => {
       mobileMenu.classList.add("hidden");
+      // mobileMenuBtn.classList.remove("burger-active");
     });
   });
 
@@ -42,7 +45,8 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", updateActiveLink);
 
   // Smooth scrolling
-  document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+  const links = document.querySelectorAll('a[href^="#"]');
+  links.forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
       e.preventDefault();
       const target = document.querySelector(this.getAttribute("href"));
