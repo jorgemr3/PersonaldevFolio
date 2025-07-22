@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     card.className = "card";
     card.dataset.md = p.archivo;
     card.innerHTML = `
-      <div>
+      <div class="bg-[#e9e3e6] rounded-[8px] shadow-[0_2px_6px_rgba(0,0,0,0.1)] p-[1.5rem] mb-[1.5rem] ">
+        <!-- card -->
         <div class="text-xs font-extralight"> ${p.id}</div>
         <div class="text-xs font-extralight"> </div>
         <div class="text-xl font-medium">${p.titulo}</div>
