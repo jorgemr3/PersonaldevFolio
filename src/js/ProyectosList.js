@@ -3,9 +3,21 @@ import { Proyecto } from "/src/model/Proyecto.js";
 export const proyectos = [
   new Proyecto(
     "01",
-    "XpressPDF",
-    "Donec velit magna, laoreet at enim non, ullamcorper bibendum augue. Nulla ante quam, viverra eget erat vitae, varius auctor nunc. Mauris in rutrum quam. Aliquam metus diam, luctus feugiat mauris eu, tempus semper neque. Integer vitae diam dictum, euismod quam ac, viverra nisl. Pellentesque vulputate felis sed lacus eleifend, at sollicitudin urna rhoncus. Cras sit amet felis fermentum, bibendum tortor eget, tincidunt sem. Pellentesque bibendum arcu et sem fermentum imperdiet. Sed non dolor non odio egestas iaculis sed eget nisi."
+    "XpressRQ",
+    "XpressRQ es la aplicación principal, enfocada en generación de requisiciones de material en formato PDF para su pronto envió via email, mantiene un diseño limpio y cómodo para su uso rápido y eficaz en casos en los que sus usuarios no cuenten con la infraestructura adecuada para generar una requisicion en forma, dándoles la opción de generarla ellos mismos desde cualquier lugar y momento.",
+    "asdas"
+
   ),
-  new Proyecto("02", "Proyecto 2", "Mauris lobortis magna ac enim aliquam, at imperdiet lectus aliquet. Quisque ac enim ipsum. Ut et blandit leo. Nullam at urna a erat lobortis volutpat. Cras a libero tincidunt, condimentum mauris lacinia, suscipit dui. Suspendisse sed lorem egestas, volutpat urna ut, pretium leo. Curabitur a nisl in purus pellentesque vehicula id ac ante. In ac finibus eros, efficitur mattis nunc. Aliquam non ultrices metus."),
-  new Proyecto("03", "IncomeTracker", "Suspendisse dignissim pellentesque interdum. Integer eget quam a turpis eleifend volutpat a sit amet libero. Maecenas auctor, nisl ac auctor malesuada, metus felis malesuada magna, a tincidunt tortor ipsum vitae lacus. Curabitur rhoncus tristique dolor, ut sagittis mi sodales a. Suspendisse potenti. Ut eleifend lorem orci, eu pretium leo elementum eu. Suspendisse at enim vitae lectus rutrum ultrices imperdiet nec mi. Nulla facilisis, libero vitae tincidunt vestibulum, metus odio iaculis neque, non fringilla turpis neque eu urna. Sed tellus eros, ullamcorper sed velit vitae, finibus fermentum dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Donec in sem ut dui pretium mattis. Sed luctus semper nulla eu consequat. Quisque nunc orci, placerat eget sapien tempor, porttitor ultricies lorem."),
+  new Proyecto(
+    "02",
+    "AdminRQ",
+    "AdminRQ es una aplicación web, exclusiva para el apoyo de XpressRQ, se tiene pensada para poder actualizar el inventario en caliente y poder consultarla del lado del cliente de manera instantánea, desarrollada en Flutter, permite mantener el inventario siempre actualizado y también el registrar usuarios nuevos de manera rápida usando Firebase como backend."
+  ),
+  new Proyecto(
+    "03",
+    "Intrack",
+    "Intrack es una app móvil diseñada para ayudar a negocios pequeños a gestionar sus ventas e inventario de manera rápida y sencilla. Ideal para eventos con mucho movimiento, como mercadillos o tiendas pop-up, te permite registrar ventas, mantener tu catálogo actualizado y obtener un resumen inmediato de ingresos."
+  ),
 ];
+
+// instancias de proyectos 

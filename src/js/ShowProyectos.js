@@ -6,14 +6,36 @@ document.addEventListener("DOMContentLoaded", () => {
     const card = document.createElement("div");
     card.className = "card";
     card.dataset.md = p.archivo;
-    card.innerHTML = `
-      <div class="bg-[#e9e3e6] rounded-[8px] shadow-[0_2px_6px_rgba(0,0,0,0.1)] p-[1.5rem] mb-[1.5rem] ">
-        <!-- card -->
-        <div class="text-xs font-extralight"> ${p.id}</div>
-        <div class="text-xs font-extralight"> </div>
-        <div class="text-xl font-medium">${p.titulo}</div>
-        <div class="text-xs md:text-sm ">${p.descripcion}</div>
-      </div>`;
+//     card.innerHTML = `
+//   <article class="exp-card-base p-6 mb-6" role="article" aria-label="${p.titulo}">
+//     <div class="text-xs text-gray-500 font-extralight">${p.id}</div>
+//     <h3 class="text-xl font-medium text-gray-800 mt-1">${p.titulo}</h3>
+//     <p class="text-sm text-gray-700 mt-2">${p.descripcion}</p>
+//   </article>
+// `;
+
+card.innerHTML = `
+ <section class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-6 max-w-7xl mx-auto role="article" aria-label="${p.titulo}">
+            
+            <div class="flex flex-col gap-2">                                                             
+              <h3 class="text-lg font-semibold">${p.titulo}</h3>
+              <a href="${p.link}" class="hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+              <img src="" alt="project icon">
+            </div>
+
+            <!-- Columna 2: Descripción -->
+            <div>
+              <p class="text-sm font-base leading-relaxed text-gray-800">
+               ${p.descripcion}
+              </p>
+            </div>
+
+           
+
+
+          </section>
+
+`;
     contenedor.appendChild(card);
   });
 });
