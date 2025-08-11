@@ -12,8 +12,6 @@ pnpm-debug.log*
 # output.css
 # Si lo prefieres, puedes versionar output.css y entonces eliminar esta línea
 
-# Configuración local de Tailwind (si no quieres versionarla)
-# tailwind.config.js
 
 # Archivos de sistema macOS
 .DS_Store
