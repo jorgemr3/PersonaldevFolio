@@ -24,3 +24,6 @@ pnpm-debug.log*
 # Archivos de build (si llegas a generar carpeta dist/)
 dist/
 /command.txt
+
+.firebase/
+firebase-debug.log

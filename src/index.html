@@ -11,7 +11,6 @@
 
   <!-- comportamiento de la navbar -->
   <script src="js/navbar.js"></script>
-  <script type="module" src="js/ShowProyectos.js"></script>
   <script src="js/NavMobileBtn.js"></script>
   <script src="js/zoomModal.js"></script>
 </head>
@@ -149,14 +148,13 @@
     <div class="p-[3rem 2rem]" id="about">
 
       <!-- ! bout me title -->
-      <h2 class="text-2xl font-medium text-center mb-4 text-gray-800">
+      <h2 class="text-3xl md:text-2xl font-medium text-center mb-4 text-gray-800">
         Sobre mí
       </h2>
 
       <p class="text-[0.9rem] md:text-base text-center md:text-left">
       Soy un estudiante en vias de aprender Desarrollo de Software por cuenta propia, actualmente enfocado de lleno en el ámbito mobile y con la capacidad de adaptarme tanto al frontend como al backend según lo requiera cada proyecto. Me especializo en Flutter y destaco mi proyecto XpressRQ, cuyo lanzamiento en Google Play está en proceso y será mi carta de presentación en la tienda. Estoy cursando la carrera de Ingeniería en Sistemas en la UAT CU SUR (Universidad Autónoma de Tamaulipas, Centro Universitario Sur) en Tampico, y complemento mis estudios con prácticas y proyectos personales que refuerzan mis conocimientos técnicos.
 Deseo certificarme en SQL y ampliar mi tech stack para abarcar más tecnologías y asumir retos más complejos.
-
 Me encanta aprender y crecer tanto en lo personal como en lo profesional.
       </p>
   </section>
@@ -168,10 +166,10 @@ Me encanta aprender y crecer tanto en lo personal como en lo profesional.
   <main class="max-w-2xl mx-auto px-5 md:px-7 space-y-12">
       <!-- experiencia -->
 
-      
-      
+      <div class="h-4 md:h-2"></div>
+
         <!--! experiencia title -->
-        <h2 class="text-2xl font-medium text-center mb-6 text-gray-800">
+        <h2 class="text-3xl md:text-2xl font-medium text-center mb-6 text-gray-800">
           Experiencia
         </h2>
 
@@ -198,9 +196,9 @@ Me encanta aprender y crecer tanto en lo personal como en lo profesional.
             
 
              <div>
-              <h3 class="text-lg font-semibold">HTV Telecomm</h3>
+              <h3 class="text-lg font-semibold">Empresa Generica</h3>
               <p class="text-sm text-gray-600">Ago. 2024 – Ene. 2025</p>
-              <p class="text-sm font-medium text-gray-700">Servicio social</p>
+              <p class="text-sm font-medium text-gray-700">Practicas profesionales</p>
             </div>
 
             <!-- Columna 2: Descripción -->
@@ -216,54 +214,65 @@ Me encanta aprender y crecer tanto en lo personal como en lo profesional.
 
 
     <!-- TECH STACK -->
-    <section class="flex flex-col items-center gap-2" id="tech-stack">
+    <section class="flex flex-col items-center gap-4" id="tech-stack">
       <!--! tech stack title -->
       
-      <h2 class="text-2xl font-medium text-center mb-4 text-gray-800">
+      <h2 class="text-3xl md:text-2xl font-medium text-center mb-4 text-gray-800">
         Tech Stack 
       </h2>
    
+        <div class="h-2"></div>
 
-        <h4 class="text-xl font-light text-center mb-2 text-gray-800"> Languajes</h4>
-        <div class="flex flex-wrap justify-center gap-4 p-5">
+        <h4 class="text-xl font-light text-center  text-gray-800"> Languajes</h4>
+        <div class="flex flex-wrap justify-center gap-4">
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Dart</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Javascript</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Python</span>
         </div>
 
+        <div class="h-1"></div>
+
     
 
-        <h4 class="text-xl font-light text-center mb-2 text-gray-800"> Frameworks</h4>
-        <div class="flex flex-wrap justify-center gap-4 p-5">
+        <h4 class="text-xl font-light text-center  text-gray-800"> Frameworks</h4>
+        <div class="flex flex-wrap justify-center gap-4">
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Flutter</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Tailwind </span>
         </div>
 
+        <div class="h-1"></div>
 
 
-        <h4 class="text-xl font-light text-center mb-2 text-gray-800"> Database Tools</h4>
-        <div class="flex flex-wrap justify-center gap-4 p-5">
+
+        <h4 class="text-xl font-light text-center  text-gray-800"> Database Tools</h4>
+        <div class="flex flex-wrap justify-center gap-4 ">
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Firestore</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Sqflite</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Supabase</span>
         </div>
 
+        <div class="h-1"></div>
 
 
-        <h4 class="text-xl font-light text-center mb-2 text-gray-800"> Design & Workflow management Tools</h4>
-        <div class="flex flex-wrap justify-center gap-4 p-5">
+        <h4 class="text-xl font-light text-center  text-gray-800"> Design & Workflow management Tools</h4>
+        <div class="flex flex-wrap justify-center gap-4 ">
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Stitch AI</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Canvas</span>
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Figma</span>
-          <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Trello</span>
+          <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Notion</span>
         </div>
 
+        <div class="h-1"></div>
 
-         <h4 class="text-xl font-light text-center mb-2 text-gray-800"> CI/CD tools</h4>
-        <div class="flex flex-wrap justify-center gap-4 p-5">
+
+         <h4 class="text-xl font-light text-center  text-gray-800"> CI/CD tools</h4>
+        <div class="flex flex-wrap justify-center gap-4 ">
           <span class="inline-block px-6 py-3 bg-gray-200 text-gray-800 rounded-md shadow-sm">Shorebird</span>
        
         </div>
+
+        <div class="h-5"></div>
+
 
 
     </section>
@@ -271,10 +280,66 @@ Me encanta aprender y crecer tanto en lo personal como en lo profesional.
     <!-- PROYECTOS -->
     <section class="section" id="projects">
       <!-- ! proyectos title -->
-      <h2 class="text-2xl font-medium text-center mb-4 text-gray-800">
+      <h2 class="text-3xl md:text-2xl font-medium text-center mb-4 text-gray-800">
         Proyectos
       </h2>
-      <div id="proyectos-container" class="flex flex-col items-center"></div>
+      
+      <!-- XpressRQ -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-6 max-w-7xl mx-auto rounded-lg mb-8" role="article" aria-label="XpressRQ">
+        <div class="flex flex-col gap-2">
+          <div class="flex md:hidden flex-col items-center gap-2">
+            <h3 class="block md:hidden text-lg font-semibold">XpressRQ</h3>
+            <a href="#" class="hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+            <img class="border-2 border-gray-200 h-[100px] md:w-[130px] md:h-[130px] rounded-full mx-[0.5rem]" draggable="false" loading="lazy" src="assets/logo_xpressrq.webp" alt="XpressRQ icon">
+          </div>
+          <h3 class="hidden md:block text-lg font-semibold">XpressRQ</h3>
+          <a href="#" class="hidden md:block hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+          <img class="hidden md:block border-2 border-gray-200 w-[100px] h-[100px] md:w-[130px] md:h-[130px] rounded-full mx-[0.5rem]" draggable="false" loading="lazy" src="assets/logo_xpressrq.webp" alt="XpressRQ icon">
+        </div>
+        <div>
+          <p class="text-sm font-base leading-relaxed text-gray-800">
+            XpressRQ es la aplicación principal, enfocada en generación de requisiciones de material en formato PDF para su pronto envió via email, mantiene un diseño limpio y cómodo para su uso rápido y eficaz en casos en los que sus usuarios no cuenten con la infraestructura adecuada para generar una requisicion en forma, dándoles la opción de generarla ellos mismos desde cualquier lugar y momento.
+          </p>
+        </div>
+      </section>
+
+      <!-- AdminRQ -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-6 max-w-7xl mx-auto rounded-lg mb-8" role="article" aria-label="AdminRQ">
+        <div class="flex flex-col gap-2">
+          <div class="flex md:hidden flex-col items-center gap-2">
+            <h3 class="block md:hidden text-lg font-semibold">AdminRQ</h3>
+            <a href="#" class="hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+            <img class="border-2 border-gray-200 h-[100px] md:w-[130px] md:h-[130px] rounded-full mx-[0.5rem]" draggable="false" loading="lazy" src="assets/logo_adminrq.webp" alt="AdminRQ icon">
+          </div>
+          <h3 class="hidden md:block text-lg font-semibold">AdminRQ</h3>
+          <a href="#" class="hidden md:block hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+          <img class="hidden md:block border-2 border-gray-200 w-[100px] h-[100px] md:w-[130px] md:h-[130px] rounded-full mx-[0.5rem]" draggable="false" loading="lazy" src="assets/logo_adminrq.webp" alt="AdminRQ icon">
+        </div>
+        <div>
+          <p class="text-sm font-base leading-relaxed text-gray-800">
+            AdminRQ es una aplicación web, exclusiva para el apoyo de XpressRQ, se tiene pensada para poder actualizar el inventario en caliente y poder consultarla del lado del cliente de manera instantánea, desarrollada en Flutter, permite mantener el inventario siempre actualizado y también el registrar usuarios nuevos de manera rápida usando Firebase como backend.
+          </p>
+        </div>
+      </section>
+
+      <!-- Intrack -->
+      <section class="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-6 max-w-7xl mx-auto rounded-lg mb-8" role="article" aria-label="Intrack">
+        <div class="flex flex-col gap-2">
+          <div class="flex md:hidden flex-col items-center gap-2">
+            <h3 class="block md:hidden text-lg font-semibold">Intrack</h3>
+            <a href="#" class="hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+            <img class="border-2 border-gray-200 h-[100px] md:w-[130px] md:h-[130px] rounded-full mx-[0.5rem]" draggable="false" loading="lazy" src="assets/intrack_logo.webp" alt="Intrack icon">
+          </div>
+          <h3 class="hidden md:block text-lg font-semibold">Intrack</h3>
+          <a href="#" class="hidden md:block hover:text-blue-700 text-sm font-medium text-gray-700">(link)</a>
+          <img class="hidden md:block border-2 border-gray-200 w-[100px] h-[100px] md:w-[130px] md:h-[130px] rounded-full mx-[0.5rem]" draggable="false" loading="lazy" src="assets/intrack_logo.webp" alt="Intrack icon">
+        </div>
+        <div>
+          <p class="text-sm font-base leading-relaxed text-gray-800">
+            Intrack es una app móvil diseñada para ayudar a negocios pequeños a gestionar sus ventas e inventario de manera rápida y sencilla. Ideal para eventos con mucho movimiento, como mercadillos o tiendas pop-up, te permite registrar ventas, mantener tu catálogo actualizado y obtener un resumen inmediato de ingresos.
+          </p>
+        </div>
+      </section>
     </section>
 
 
@@ -282,74 +347,49 @@ Me encanta aprender y crecer tanto en lo personal como en lo profesional.
     <!-- EDUCACION -->
     <section class="section" id="education">
       <!-- ! educacion title -->
-      <h2 class="text-2xl font-medium text-center mb-4 text-gray-800">
+      <h2 class="text-3xl md:text-2xl font-medium text-center mb-4 text-gray-800">
         Educación / Formación
       </h2>
+    
       <!-- !card -->
       <div class="bg-[#e9e3e6] rounded-[8px] shadow-[0_2px_6px_rgba(0,0,0,0.1)] p-[1.5rem] mb-[1.5rem] ">
-        <h3>Universidad del noreste </h3>
+        <h3>Universidad del Noreste </h3>
         <!-- !role -->
-        <p class="font-bold mb-[0.5rem]">Curso / Programa — 2016 - 2019</p>
-        <ul class="list-none pl-0 mt-[1rem]">
-          <li
-            class="relative pl-[1.5rem] mb-[0.75rem] leading-[1.4] before:content-['▹'] before:absolute before:left-0 before:text-[#197bbd] before:font-bold">
-            Detalle 1</li>
-          <li
-            class="relative pl-[1.5rem] mb-[0.75rem] leading-[1.4] before:content-['▹'] before:absolute before:left-0 before:text-[#197bbd] before:font-bold">
-            Detalle 2</li>
-        </ul>
+        <p class="font-bold mb-[0.5rem]">6 semestres cursados  — 2016 - 2019 (Finalizado)</p>
+       
       </div>
+
       <div class="bg-[#e9e3e6] rounded-[8px] shadow-[0_2px_6px_rgba(0,0,0,0.1)] p-[1.5rem] mb-[1.5rem] ">
-        <h3>Nombre de la Escuela</h3>
+        <h3>Universidad Autonoma de Tamaulipas</h3>
         <!-- !role -->
-        <p class="font-bold mb-[0.5rem]">Curso / Programa — 2016 - 2019</p>
+        <p class="font-bold mb-[0.5rem]">Programa de 9 periodos  — 2021 - 2026</p>
         <ul class="list-none pl-0 mt-[1rem]">
           <li
             class="relative pl-[1.5rem] mb-[0.75rem] leading-[1.4] before:content-['▹'] before:absolute before:left-0 before:text-[#197bbd] before:font-bold">
-            Detalle 1</li>
-          <li
-            class="relative pl-[1.5rem] mb-[0.75rem] leading-[1.4] before:content-['▹'] before:absolute before:left-0 before:text-[#197bbd] before:font-bold">
-            Detalle 2</li>
+            Especialización en Desarrollo de software y ML</li>
+         
          
         </ul>
       </div>
+
+      <div class="bg-[#e9e3e6] rounded-[8px] shadow-[0_2px_6px_rgba(0,0,0,0.1)] p-[1.5rem] mb-[1.5rem] ">
+        <h3>Dart: Desde 0 a los detalles </h3>
+        <!-- !role -->
+        <p class="font-bold mb-[0.5rem]">Curso dividido en diversos modulos (Udemy)</p>
+      </div>
     </section>
 
-    <!-- CONTACTO
-      <section class="section" id="contact">
-        ! titulo de contacto
-        <h2
-          class="text-2xl font-bold text-right text-gray-800"
-        >
-          Contacto
-        </h2>
-        <div class="h-8"></div> 
-         <div class="flex flex-wrap flex-col items-baseline md:items-center gap-4">
-          <a href="https://github.com/jorgemr3" target="_blank"
-            ><i class="fab fa-github"></i> github.com/jorgemr3</a
-          >
+    
+  
 
-          <a href="mailto:jorgemr103@gmail.com"
-            ><i class="fas fa-envelope"></i> jorgemr103@gmail.com</a
-          >
-
-          <a href="https://linkedin.com/in/tuusuario" target="_blank"
-            ><i class="fab fa-linkedin-in"></i> LinkedIn</a
-          >
-        </div>
-      </section>
-
-    </div>
-    ! div sangria  -->
-
-    <div class="h-5"></div>
+    <div class="h-3 md:hidden"></div>
 
     <!-- !footer -->
-    <footer id="footer" class="hover:bg-[#1f1e1e]   w-full rounded-md bg-[#312f2f] text-white text-[0.9rem]">
+    <footer id="footer" class="hover:bg-[#1f1e1e]  w-full rounded-md bg-[#312f2f] text-white text-[0.9rem]">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
         <div class="flex flex-col md:flex-row items-center justify-between space-y-2 md:space-y-0">
           <!-- Texto de copyright -->
-          <p>&copy; 2025 Jorge Melo. Todos los derechos reservados.</p>
+          <p>2025 Jorge Melo </p>
           <!--enlaces sociales -->
           <div class="flex space-x-4">
             <a href="https://github.com/jorgemr3" target="_blank" class="hover:text-gray-300">
